@@ -1,4 +1,44 @@
-.imagen{
-    border-style: solid;
-    color: #000;
+.container {
+     display: grid;
+     grid-auto-columns: 1fr;
+     background-color: rgb(167, 117, 44);
+     grid-template-rows: 15.7% 33% 31.3% 38.6%;
+     gap: 4% 2px;
+     grid-template-areas:
+          "header"
+          "photo"
+          "ingredients"
+          "preparation"
+     ;
+     grid-template-columns: 80%;
+
+     height: 100px;
+}
+
+.header {
+     text-align: center;
+     font-size: 120%;
+     grid-area: header;
+}
+
+.photo {
+     border: 1px solid black;
+     size-adjust: auto;
+     padding: 250px;
+
+}
+
+.photo {
+     float: right;
+     grid-area: auto;
+
+}
+
+.ingredients {
+
+     grid-area: ingredients;
+}
+
+.preparation {
+     grid-area: preparation;
 }
