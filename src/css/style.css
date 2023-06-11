@@ -1,87 +1,101 @@
 .container {
-
+     /* display: grid; */
      width: 100%;
+     height: 100%;
+     background-color: rgb(238, 215, 141);
+}    
 
-
-
-}
 
 .zone1 {
-     display: flex;
-     justify-content: left;
-     background-color: rgb(224, 197, 158);
+     margin-top: 1%;
+     height: 80%;
+     width: 100%;
+     background-color: rgb(219, 148, 49);
      border: 2px solid #000;
-     grid-template-columns: 4fr;
+
 }
 
 .text1 {
-     display: flex;
-     font-size: 150%;
-
+     text-justify: auto;
+     font-size: 100%;
 }
 
 .zone2 {
-     padding-top: 5%;
+     margin-top: 3%;
      width: 100%;
-     padding-block-end: 5%;
-
-
-}
-
-
-.photo {
+     border: 2px solid #000;
      border-radius: 25px;
-     border: 2px solid #000;
-     width: 100%;
+    }
+
+
+.img{
+     
+     
+     border-radius: 25px;
+    
 
 }
 
-.zone3 {display: grid;
-     padding-top: 5%;
-     padding-left: 5%;
+.zone3 {
+     margin-top: 3%;
+     height: 110%;
+     width: 70%;
      border: 2px solid #000;
-     border-right-width: 35%;
-     padding-block-end: 5%;
+
 }
+
 .ingredients {
-     display: flex;
+     text-align: left;
+     text-align: start;
      font-size: 150%;
+
 }
 
 .time {
-     padding: 15%;
+     margin-top: -24.5%;
+     margin-left: 80%;
+     height: 50%; 
+     width: 20%;
      border: 2px solid #000;
+     border-radius: 25px;
+
 }
 
 .texttime {
-     display: flex;
-     font-size: 150%;
-     justify-content: space-around;
+     font-size: 130%;
+     text-align: center;
+     line-height: 100px;
+
 }
 
 .zone4 {
-     padding-top: 5%;
-     grid-area: preparation;
+     margin-top: 8.5%;
+     height: 100%;
+     width: 70%;
      border: 2px solid #000;
-     padding-block-end: 5%;
+
+
 }
-.text{
-     display: flex;
+
+.text {
+     text-align: left;
      font-size: 150%;
-     /* justify-content: space-around; */
+
 }
 
 .zone5 {
-     background-color: rgb(224, 197, 158);
+     margin-top: 3%;
+     height: 55%;
+     width: 100%;
+     background-color: rgb(219, 148, 49);
      border: 2px solid #000;
-     /* grid-template-columns: 4fr; */
-     border: 2px solid #000;
+
+
 }
 
 .text5 {
-     height: auto;
-     display: flex;
-     text-align: center;
-     justify-content: center;
-     border: 2px solid #000;
+     text-align:center;
+     font-size: 100%;
+     
+
 }
