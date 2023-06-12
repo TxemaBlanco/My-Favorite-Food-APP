@@ -1,5 +1,5 @@
 .container {
-     /* display: grid; */
+     display: grid;
      width: 100%;
      height: 100%;
      background-color: rgb(238, 215, 141);
@@ -28,17 +28,17 @@
     }
 
 
-.img{
+/* .photo{ */
      
      
-     border-radius: 25px;
+     /* border-radius: 25px; */
     
 
-}
+/* } */
 
 .zone3 {
      margin-top: 3%;
-     height: 110%;
+     height: 90%;
      width: 70%;
      border: 2px solid #000;
 
@@ -47,34 +47,29 @@
 .ingredients {
      text-align: left;
      text-align: start;
-     font-size: 150%;
+     font-size: 130%;
 
 }
 
 .time {
-     margin-top: -24.5%;
-     margin-left: 80%;
-     height: 50%; 
-     width: 20%;
+     margin-top: 7%; 
+     margin-left: 117.5%;
+     height: 70%; 
+     width: 25%;
      border: 2px solid #000;
-     border-radius: 25px;
+     border-radius: 25px; 
 
 }
-
 .texttime {
-     font-size: 130%;
      text-align: center;
-     line-height: 100px;
-
+     text-align-last: center;
 }
 
 .zone4 {
-     margin-top: 8.5%;
-     height: 100%;
+     margin-top: 3%;
+     height: 85%;
      width: 70%;
      border: 2px solid #000;
-
-
 }
 
 .text {
@@ -82,14 +77,14 @@
      font-size: 150%;
 
 }
-
 .zone5 {
+     
      margin-top: 3%;
      height: 55%;
      width: 100%;
      background-color: rgb(219, 148, 49);
      border: 2px solid #000;
-
+     margin-bottom: 1%;
 
 }
 
